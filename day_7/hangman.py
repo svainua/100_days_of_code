@@ -1,5 +1,5 @@
-import random
 import os
+import random
 
 from hangman_art import logo, stages
 from hangman_words import word_list
@@ -16,7 +16,7 @@ print(display)
 should_continue = True
 while should_continue:
     guess = input("Guess a letter:\n").lower()
-    os.system('clear')
+    os.system("clear")
 
     if guess in display:
         print(f"You already chose letter '{guess}' before, try again")
