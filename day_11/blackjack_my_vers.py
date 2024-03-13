@@ -1,12 +1,9 @@
 import os
 import random
-
 from art import logo
 
-cards = [11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10]
-
-
 def deal_card():
+    cards = [11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10]
     return random.choice(cards)
 
 
@@ -81,10 +78,6 @@ def game():
                 break
 
 
-while True:
-    wanna_play = input("Do you want to play a game of BlackJack? Type 'y' or 'n':\n").lower()
-    if wanna_play == "y":
+while input("Do you want to play a game of BlackJack? Type 'y' or 'n':\n").lower() == "y":
         os.system("clear")
         game()
-    else:
-        break
