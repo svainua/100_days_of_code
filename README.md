@@ -1,5 +1,4 @@
-About
-This is a list of tasks made day by day with "100 days of code"
+# This is a list of tasks made day by day with "100 days of code"
 
 # Day 1
 start, strings
