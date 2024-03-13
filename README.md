@@ -1,16 +1,16 @@
 About
 This is a list of tasks made day by day with "100 days of code"
 
-Day 1
-# start, strings
+# Day 1
+start, strings
 - band name generator
 
-Day 2
-# integers
+# Day 2
+integers
 - tip_calculator
 
-Day 3
-# calculations
+# Day 3
+calculations
 - bmi calculator
 - febonacci
 - leap year
@@ -19,37 +19,37 @@ Day 3
 - pizza order
 - treasure island
 
-Day 4
-# smth
+# Day 4
+smth
 - banker roulette
 - heads or tails
 - rock paper scissors
 - treasure map
 
-Day 5
-# smth
+# Day 5
+smth
 - adding even number
 - average height
 - fizzbuzz
 - high score
 - password generator
 
-Day 6
-# smth
+# Day 6
+smth
 pass
 
-Day 7
-# smth
+# Day 7
+smth
 - hangman
 
-Day 8
-# smth
+# Day 8
+smth
 - paint calculator
 - prime number
 - caesar cipher
 
-Day 9
-# smth
+# Day 9
+smth
 - grading program
 - dictionary in list
 - blind auction
