@@ -52,3 +52,7 @@ smth
 - grading program
 - dictionary in list
 - blind auction
+
+# Day 10
+smth
+- days in month
