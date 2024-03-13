@@ -21,31 +21,19 @@ def game():
         comp_cards.append(deal_card())
 
     if sum(player_cards) == 21 and sum(comp_cards) == 21:
-        print(
-            f"Your final hand is {player_cards}, final score: {sum(player_cards)}"  # noqa
-        )
-        print(
-            f"Computer's final hand is: {comp_cards}, final score: {sum(comp_cards)}"  # noqa
-        )
+        print(f"Your final hand is {player_cards}, final score: {sum(player_cards)}")
+        print(f"Computer's final hand is: {comp_cards}, final score: {sum(comp_cards)}")
         print("It's a draw")
         return
 
     elif sum(player_cards) == 21:
-        print(
-            f"Your final hand is {player_cards}, final score: {sum(player_cards)}"  # noqa
-        )
-        print(
-            f"Computer's final hand is: {comp_cards}, final score: {sum(comp_cards)}"  # noqa
-        )
+        print(f"Your final hand is {player_cards}, final score: {sum(player_cards)}" )
+        print(f"Computer's final hand is: {comp_cards}, final score: {sum(comp_cards)}")
         print("Congrats! You win with BlackJack!")
         return
     elif sum(comp_cards) == 21:
-        print(
-            f"Your final hand is {player_cards}, final score: {sum(player_cards)}"  # noqa
-        )
-        print(
-            f"Computer's final hand is: {comp_cards}, final score: {sum(comp_cards)}"  # noqa
-        )
+        print(f"Your final hand is {player_cards}, final score: {sum(player_cards)}")
+        print(f"Computer's final hand is: {comp_cards}, final score: {sum(comp_cards)}")
         print("Comp wins with BlackJack!")
         return
 
@@ -54,9 +42,7 @@ def game():
 
     should_continue = True
     while should_continue:
-        next_step = input(
-            "Type 'y' to get another card, type 'n' to pass:\n"
-        ).lower()
+        next_step = input("Type 'y' to get another card, type 'n' to pass:\n").lower()
         if next_step == "y":
             player_cards.append(deal_card())
 
@@ -65,19 +51,13 @@ def game():
                 player_cards[ace_index] = 1
 
             if sum(player_cards) > 21:
-                print(
-                    f"Your final hand is {player_cards}, final score: {sum(player_cards)}"  # noqa
-                )
-                print(
-                    f"Computer's final hand is: {comp_cards}, final score: {sum(comp_cards)}"  # noqa
-                )
+                print(f"Your final hand is {player_cards}, final score: {sum(player_cards)}")
+                print(f"Computer's final hand is: {comp_cards}, final score: {sum(comp_cards)}")
                 print("You went over. You lose.")
                 # should_continue = False
                 return
 
-            print(
-                f"Your cards: {player_cards}, current score: {sum(player_cards)}"  # noqa
-            )
+            print(f"Your cards: {player_cards}, current score: {sum(player_cards)}")
             print(f"Computer's first card: {comp_cards[0]}")
 
         else:
@@ -87,12 +67,8 @@ def game():
                     ace_index = comp_cards.index(11)
                     comp_cards[ace_index] = 1
 
-            print(
-                f"Your final hand is {player_cards}, final score: {sum(player_cards)}"  # noqa
-            )
-            print(
-                f"Computer's final hand is: {comp_cards}, final score: {sum(comp_cards)}"  # noqa
-            )
+            print(f"Your final hand is {player_cards}, final score: {sum(player_cards)}")
+            print(f"Computer's final hand is: {comp_cards}, final score: {sum(comp_cards)}")
 
             if sum(player_cards) > sum(comp_cards) or sum(comp_cards) > 21:
                 print("Congrats! You win!")
@@ -106,9 +82,7 @@ def game():
 
 
 while True:
-    wanna_play = input(
-        "Do you want to play a game of BlackJack? Type 'y' or 'n':\n"
-    ).lower()
+    wanna_play = input("Do you want to play a game of BlackJack? Type 'y' or 'n':\n").lower()
     if wanna_play == "y":
         os.system("clear")
         game()
