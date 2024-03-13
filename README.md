@@ -56,3 +56,7 @@ smth
 # Day 10
 smth
 - days in month
+- calculator
+
+# Day 11
+- blackjack
