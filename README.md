@@ -60,3 +60,6 @@ smth
 
 # Day 11
 - blackjack
+
+# Day 12
+- number guessing name
