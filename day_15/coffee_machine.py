@@ -9,12 +9,14 @@ resources = {
 money = 0
 
 def report(resources: dict, money: float):
+    """Gives the report about the availability of ingredients"""
     print(f"Water: {resources["water"]}ml")
     print(f"Milk: {resources["milk"]}ml")
     print(f"Coffee: {resources["coffee"]}gr")
     print(f"Money: ${money}")
 
 def check_resources(product: str, resources: dict, menu: dict) -> bool:
+    """Returns True when order can be made, False if ingredients are insufficient."""
     for needed_ingedient in menu[product]["ingredients"]:
         if menu[product]["ingredients"][needed_ingedient] > resources[needed_ingedient]:
             print(f"Sorry there is not enough {needed_ingedient}.")
