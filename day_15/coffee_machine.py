@@ -22,6 +22,7 @@ def check_resources(product: str, resources: dict, menu: dict) -> bool:
     return True    
 
 def process_coins():
+    """Returns the total calculated from coins inserted."""
     coins_value = {
         "quarters": 0.25,
         "dimes": 0.1,
@@ -40,6 +41,7 @@ def process_coins():
     return total
 
 def check_transaction(product: str, payment: float, menu: dict):
+    """Return True when the payment is accepted, or False if money is insufficient."""
     global money
     if payment < menu[product]["cost"]:
         print("Sorry that's not enough money. Money refunded.")
@@ -54,6 +56,7 @@ def check_transaction(product: str, payment: float, menu: dict):
         return True
 
 def make_coffee(product: str, ingredients: dict, menu: dict):
+    """Deduct the required ingredients from the resources."""
     global resources
     for item in menu[product]["ingredients"]:
         resources[item] -= menu[product]["ingredients"][item]
