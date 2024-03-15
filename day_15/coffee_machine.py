@@ -68,7 +68,6 @@ def make_coffee(product: str, ingredients: dict, menu: dict):
 
 should_continue = True
 while should_continue:
-
     prompt = input("What would you like? (espresso/latte/cappuccino):").lower()
     if prompt == "report":
         report(resources=resources, money=money)
