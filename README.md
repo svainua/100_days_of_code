@@ -66,3 +66,9 @@ smth
 
 # Day 13
 - pass
+
+# Day 14
+- Instagram followers guessing name
+
+# Day 15
+- Coffee machine
