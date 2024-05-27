@@ -72,3 +72,9 @@ smth
 
 # Day 15
 - Coffee machine
+
+# Day 16
+- Coggee machine final
+
+# Day 17
+- Quiz game
