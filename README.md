@@ -74,7 +74,13 @@ smth
 - Coffee machine
 
 # Day 16
-- Coggee machine final
+- Coffee machine final
 
 # Day 17
 - Quiz game
+
+# Day 18
+- Turtle
+
+# Day 19
+-Turtle race
