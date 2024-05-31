@@ -84,3 +84,6 @@ smth
 
 # Day 19
 -Turtle race
+
+# Day 20-21
+- Snake game 
