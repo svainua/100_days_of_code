@@ -87,3 +87,9 @@ smth
 
 # Day 20-21
 - Snake game 
+
+# Day 22
+- Pin Pong
+
+# Day 23
+- Turtle road crossing game
