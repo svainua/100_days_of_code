@@ -93,3 +93,6 @@ smth
 
 # Day 23
 - Turtle road crossing game
+
+# Day 24
+- Create letter for a list of names
