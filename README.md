@@ -96,3 +96,9 @@ smth
 
 # Day 24
 - Create letter for a list of names
+
+# Day 25
+- US States to learn
+
+# Day 26
+- NATO Alphabet
