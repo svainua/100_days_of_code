@@ -1,7 +1,7 @@
 from tkinter import *
 
 def calculate():
-    miles = int(my_input.get())
+    miles = float(my_input.get())
     label_2["text"] = int(miles * 1.609)
 
 
