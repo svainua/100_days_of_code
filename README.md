@@ -105,3 +105,9 @@ smth
 
 # Day 27
 - Miles to Km converter TkInter
+
+# Day 28
+- Pomodoro timer
+
+# Day 29
+- GUI password generator
